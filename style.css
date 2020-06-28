@@ -11,7 +11,18 @@
   border: 3px dotted blue;
 }
 /* testing end */
+.navbar-nav > li{
+  padding-left:15px;
+  padding-right:15px;
+}
 
+.custom-toggler.navbar-toggler {
+  border-color:  #651FFF;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(101,31,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 /* font format */
 h1 {
   font-family: Rubik;
@@ -43,8 +54,8 @@ p {
   font-family: Karla;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 32px;
+  line-height: 48px;
   /* text-align: right; */
   color: #000000;
 }
@@ -71,6 +82,10 @@ p {
 
 
 /* card css start */
+.my-col-trans{
+  border: 3px dotted transparent;
+}
+
 .mainpill{
   background-color: white;
   border: none;
@@ -78,7 +93,7 @@ p {
   padding: 6px 12px;
   text-align: center;
   display: inline-block;
-  margin: 8px 16px;
+  margin: 4px 3px;
   border-radius: 8px;
   font-family: Karla;
   font-style: normal;
@@ -94,7 +109,7 @@ p {
   padding: 6px 12px;
   text-align: center;
   display: inline-block;
-  margin: 8px 16px;
+  margin: 4px 3px;
   border-radius: 8px;
   font-family: Karla;
   font-style: normal;
@@ -130,6 +145,17 @@ p {
   text-decoration: none;
 }
 
+.farmily{
+   background-color: #2A363B;
+ }
+
+.planty{
+  background-color: #F6F5F3;
+}
+
+.vibecheck{
+  background-color: #FFFAF0;
+}
 .link {
   text-decoration: none;
   background-image: linear-gradient(#651FFF, #651FFF);
@@ -204,3 +230,35 @@ p {
     content: 'I know HTML5 and CSS3 as you can see :)';
   }
 }
+
+/* //mobile changes */
+@media (min-width: 0px) and (max-width: 767.98px) {
+   .intro{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* text-align: right; */
+    color: #000000;
+  }
+
+  p {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+
+  h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+  }

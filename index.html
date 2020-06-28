@@ -3,7 +3,8 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -19,21 +20,31 @@
 
   </head>
   <body>
+
   <!-- navbar -->
-    <div class="container-fluid">
-      <ul class="nav justify-content-end m-5">
-        <li class="nav-item">
-          <a class="nav-link active" href="#"><p><span class="bold">Work</span></p></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><p>About</p></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><p>Resume</p></a>
-        </li>
-      </ul>
-    </div>
-    <!-- intro container -->
+  <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+
+  <button class="navbar-toggler m-4 custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon custom-toggler" style="color:#651FFF;"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto m-4">
+      <li class="nav-item active ml-auto">
+        <a class="nav-link" href="#"><p><span class="bold">Work</span></p></a>
+      </li>
+      <li class="nav-item ml-auto">
+        <a class="nav-link" href="#"><p>About</p></a>
+      </li>
+      <li class="nav-item ml-auto">
+        <a class="nav-link disabled" href="#"><p>Resume</p></a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+
+  <!-- intro container -->
   <div class="container-fluid" style="height: 100vh;">
     <div class="center">
       <p class="intro">
@@ -51,19 +62,18 @@
 
     <!-- content container-->
     <div class="container-md">
-    <div class="spacer"></div>
 
       <!-- what I'm up to  -->
       <div class="row py-3 justify-content-end order-2 order-md-1">
-        <div class="col-md-6 ">
-          <img src="Assets/face.png">
+        <div class="col-md-6">
+          <img src="Assets/face.png" class="mx-4 mx-md-0">
         </div>
       </div>
       <div class="row py-3 order-1 order-md-2">
-        <div class="col-md ">
+        <div class="col-md mx-4 mx-md-0">
           <h1>What I'm up to</h1>
         </div>
-        <div class="col-md ">
+        <div class="col-md mx-4 mx-md-0">
           <p>
             I’m currently learning <span class="bold">Machine Learning</span> and <span class="bold">product design</span>. I’m also freelancing at <a href="https://farm.bot/" target="_blank"><span class="bold link nodec">FarmBot</span></a> and will be working on object recognition for plant detection!
             <br>
@@ -74,8 +84,8 @@
 
       <div class="spacer"></div>
       <!-- project cards -->
+
       <!-- vibe check -->
-      <!-- <div class="container"> -->
         <div class="card mb-3 bgclr marg" style="max-width: 1116px; border: none;">
           <div class="row no-gutters">
             <div class="col-md-8">
@@ -83,6 +93,7 @@
                 <p class="card-text">01 //</p>
                 <h1 class="card-title">Vibe Check</h1>
                 <p class="card-text">Find the mood of your Spotify playlist and filter out songs that don’t match the mood</p>
+                <div style="height:48px;"></div>
                   <div class="mainpill first">JavaScript</div>
                   <div class="mainpill">HTML5</div>
                   <div class="mainpill last">CSS3</div>
@@ -93,12 +104,12 @@
                   <div class="secondarypill last">Heroku</div>
               </div>
             </div>
-            <div class="col-md-4">
-              <img src="Assets/vibecheck.png" class="card-img" style="height:100%;" alt="Vibe Check Image">
+            <div class="col align-self-center my-col-trans vibecheck">
+              <img src="Assets/vibecheck.png" class="img-fluid mx-auto d-block"  alt="vibecheck Image">
             </div>
           </div>
         </div>
-      <!-- </div> -->
+
 
       <!-- farmily -->
       <div class="card mb-3 bgclr marg" style="max-width: 1116px; border: none;">
@@ -108,6 +119,7 @@
               <p class="card-text">02 //</p>
               <h1 class="card-title">Farmily</h1>
               <p class="card-text">Connect farmers with excess produce to local consumers to reduce food waste due to COVID-19</p>
+              <div style="height:48px;"></div>
                 <div class="mainpill first">JavaScript</div>
                 <div class="mainpill">HTML5</div>
                 <div class="mainpill last">CSS3</div>
@@ -117,8 +129,8 @@
                 <div class="secondarypill">Node.js</div>
             </div>
           </div>
-          <div class="col-md-4">
-            <img src="Assets/farmily.png" class="card-img"  style="height:100%;" alt="Farmily Image">
+          <div class="col align-self-center my-col-trans farmily">
+            <img src="Assets/farmily.png" class="img-fluid mx-auto d-block"  alt="Farmily Image">
           </div>
         </div>
       </div>
@@ -131,6 +143,7 @@
               <p class="card-text">03 //</p>
               <h1 class="card-title">Planty</h1>
               <p class="card-text">Google Chrome extension that suggest ingredient substitutes with lower carbon footprints for online recipes</p>
+              <div style="height:48px;"></div>
                 <div class="mainpill first">JavaScript</div>
                 <div class="mainpill">HTML5</div>
                 <div class="mainpill last">CSS3</div>
@@ -139,8 +152,8 @@
                 <div class="secondarypill">Browserify</div>
             </div>
           </div>
-          <div class="col-md-4">
-            <img src="Assets/planty.png" class="card-img"  style="height:100%;" alt="Planty Image">
+          <div class="col align-self-center my-col-trans planty">
+            <img src="Assets/planty.png" class="img-fluid mx-auto d-block"  alt="Planty Image">
           </div>
         </div>
       </div>
@@ -149,10 +162,10 @@
 
       <!-- Say hello! -->
       <div class="row py-3">
-        <div class="col-md">
+        <div class="col-md mx-4 mx-md-0">
           <h1>Say hello!</h1>
         </div>
-        <div class="col-md">
+        <div class="col-md mx-4 mx-md-0">
           <p>
             You can reach me through my <a href="https://www.linkedin.com/in/johnson-su/" target="_blank"><span class="bold link nodec">LinkedIn</span></a> or send me an <a class="bold link nodec" href = "mailto: johnsonn.su@mail.utoronto.ca"><span class="bold link nodec">email</span></a>.
             Whether you want to do a Hackathon with me or get to know
@@ -184,16 +197,9 @@
           </ul>
         </div>
       </div>
-
-
-
-
-
     </div>
 
-
-
-    <!-- Optional JavaScript -->
+    <!-- Animation JavaScript -->
     <script>
       var TxtRotate = function(el, toRotate, period) {
         this.toRotate = toRotate;
