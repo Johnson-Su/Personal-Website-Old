@@ -11,19 +11,8 @@
   border: 3px dotted blue;
 }
 /* testing end */
-.navbar-nav > li{
-  padding-left:15px;
-  padding-right:15px;
-}
 
-.custom-toggler.navbar-toggler {
-  border-color:  #651FFF;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(101,31,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-/* font format */
+/* text formatting start */
 h1 {
   font-family: Rubik;
   font-style: normal;
@@ -43,7 +32,6 @@ p {
 
   color: #000000;
 }
-/* font format */
 
 .bold {
   font-weight: bold;
@@ -56,8 +44,94 @@ p {
   font-weight: normal;
   font-size: 32px;
   line-height: 48px;
-  /* text-align: right; */
   color: #000000;
+}
+
+.projtitle{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 114px
+}
+.projsub{
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.projtext{
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.link {
+  text-decoration: none;
+  background-image: linear-gradient(#651FFF, #651FFF);
+  color: #651FFF;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100% 2px;
+  transition: background-size .6s, background-position .25s ease-in .25s;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: white;
+  background-size: 100% 100%;
+  background-position: 0% 0%;
+  transition: color 0.6s, background-position .25s, background-size .25s ease-in .25s;
+}
+
+.projectdesc{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.projectdescsmall{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.projectlargequote{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 76px;
+}
+
+.purple{
+  color: #651FFF;
+}
+
+.maxlen{
+  width:65%;
+}
+
+/* text formatting end */
+
+.navbar-nav > li{
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color:  #651FFF;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(101,31,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .introcont{
@@ -160,23 +234,7 @@ p {
 .vibecheck{
   background-color: #FFFAF0;
 }
-.link {
-  text-decoration: none;
-  background-image: linear-gradient(#651FFF, #651FFF);
-  color: #651FFF;
-  background-repeat: no-repeat;
-  background-position: 0% 100%;
-  background-size: 100% 2px;
-  transition: background-size .6s, background-position .25s ease-in .25s;
-}
 
-.link:hover {
-  text-decoration: none;
-  color: white;
-  background-size: 100% 100%;
-  background-position: 0% 0%;
-  transition: color 0.6s, background-position .25s, background-size .25s ease-in .25s;
-}
 
 .ani:before{
   content: '';
@@ -334,8 +392,20 @@ p {
   margin: 4px 0 0 12px;
 }
 
+.projectmargL{
+  margin-right: 20px;
+}
+
+.projectmargR{
+  margin-left: 20px;
+}
+
+
+.spacersmall{
+  margin-bottom: 60px;
+}
 /* //mobile changes */
-@media (min-width: 0px) and (max-width: 767.98px) {
+@media (min-width: 0px) and (max-width: 992px) {
    .intro{
     font-family: Karla;
     font-style: normal;
@@ -372,5 +442,33 @@ p {
     font-weight: normal;
     font-size: 18px;
   }
+
+  .projtitle{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px
+  }
+  .projsub{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .projtext{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .maxlen{
+    width:100%;
+  }
+
+
 
 }
