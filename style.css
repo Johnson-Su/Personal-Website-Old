@@ -197,6 +197,36 @@ p {
   background: #F9F9F9;
 }
 
+.hovercard{
+  transition: 0.2s;
+}
+
+.hovercard:hover{
+  transition: 0.4s;
+  background: #EDE7F6;
+}
+.hovercard:hover .col-md-8 .card-body .card-title{
+  transition: 0.4s;
+  color: #651FFF;
+}
+
+.hovercard:hover .col-md-8 .card-body .card-text{
+  transition: 0.4s;
+  color: #651FFF;
+}
+
+.hovercard:hover .col-md-8 .card-body .secondarypill{
+  transition: 0.4s;
+  color: #651FFF;
+  background-color:  white;
+}
+
+.hovercard:hover .col-md-8 .card-body .mainpill{
+  transition: 0.4s;
+  color: #651FFF;
+  background-color: white;
+}
+
 .mobile{
    width:0px;
    height:0px;
@@ -247,7 +277,6 @@ p {
 .vibecheck{
   background-color: #FFFAF0;
 }
-
 
 .ani:before{
   content: '';
@@ -390,8 +419,8 @@ p {
 
 .time {
   display: inline-block;
-  padding: 4px 6px;
-  background: rgb(248,248,248);
+  padding: 2px 4px;
+  background: #F9F9F9;
 }
 
 .desc {
@@ -418,13 +447,13 @@ p {
   margin-bottom: 60px;
 }
 /* //mobile changes */
-@media (min-width: 0px) and (max-width: 992px) {
+@media (min-width: 0px) and (max-width: 768px) {
    .intro{
     font-family: Karla;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 28px;
     /* text-align: right; */
     color: #000000;
   }
