@@ -24,10 +24,10 @@
   <body>
   <!-- intro page -->
   <div class="bgclr">
-    <div class="container-fluid my-container bgclrlarge" style="min-height: 100vh;">
-      <div class="card my-col bgclr" style="border: none;">
-        <div class="row my-row" style="min-height: 100vh;">
-          <div class="col-md-8 d-flex align-items-center ">
+    <div class="container-fluid  bgclrlarge" style="min-height: 100vh;">
+      <div class="card  bgclr" style="border: none;">
+        <div class="row " style="min-height: 100vh;">
+          <div class="col-md-8 mobilespacer d-flex align-items-center ">
             <div class="card-body " style="margin-left:5vw; margin-right:5vw;">
               <p class="card-text projsub">Hack the Northeast - Hackathon</p>
               <h1 class="card-title projtitle">Vibe Check</h1>
@@ -37,7 +37,8 @@
             </div>
           </div>
           <div class="col vibecheck my-col-trans vibecheck">
-            <img src="Assets/largevibecheck.png" class="img-fluid mx-auto d-block" alt="vibecheck Image">
+            <img src="Assets/largevibecheck.png" class="img-fluid mx-auto d-block notmobile" alt="vibecheck Image">
+            <img src="Assets/largevibecheckmobile.png" class="img-fluid mx-auto d-block mobile" alt="vibecheck Image">
           </div>
         </div>
       </div>
@@ -45,16 +46,16 @@
   </div>
 
 <!-- problem solution -->
-  <div class="container-md my-container justify-content-end bgclrlarge" style="height: 100vh;">
-    <div class="row my-row align-items-center" style="min-height: 100vh;">
-      <div class="row my-row">
-        <div class="col-md my-col ">
+  <div class="container-md  justify-content-end bgclrlarge" style="min-height: 100vh;">
+    <div class="row  align-items-center  mx-4 mx-md-0" style="min-height: 100vh;">
+      <div class="row ">
+        <div class="col-md  mobilespacer">
           <p class="projectdesc">Problem</p>
           <p>I want to keep the vibe going when I’m listening to music and don’t want songs which breaks my mood.</p>
           <p class="projectdesc">Solution</p>
           <p>Allow people to identify the genre or “vibe” of their playlists and let them easily remove songs that could break the mood.</p>
         </div>
-        <div class="col-md my-col ">
+        <div class="col-md  ">
           <p>
             <span class="projectdescsmall">My Role:</span><br />Implementing machine learning, Backend development, UI/UX Design<br /><br />
             <span class="projectdescsmall">Tools used:</span><br />Javascript, HTML5, CSS3, Brain.js, Heroku, Node.js, Spotify Web API, Illustrator, Figma<br /><br />
@@ -67,9 +68,9 @@
   </div>
 
   <!-- largequote -->
-  <div class="container-md my-container justify-content-end bgclrlarge" style="height: 100vh;">
-    <div class="row my-row align-items-center" style="min-height: 100vh;">
-      <div class="row my-row">
+  <div class="container-md  justify-content-end bgclrlarge" style="min-height: 100vh;">
+    <div class="row  align-items-center mx-4 mx-md-0" style="min-height: 100vh;">
+      <div class="row ">
         <p class="projectlargequote">It takes <span class="purple">23 minutes and 15 seconds</span> to refocus after an interruption.</p>
         <p><b>- Researchers from the University of California</b></p>
       </div>
@@ -77,10 +78,10 @@
   </div>
 
   <!-- the rest -->
-  <div class="container-md my-container justify-content-end bgclrlarge">
+  <div class="container-md justify-content-end bgclrlarge ">
       <div class="spacer"></div>
       <!-- what it does -->
-      <div class="row my-row">
+      <div class="row   mx-4 mx-md-0">
       <h1 class="spacersmall">What it does</h1>
       <p>
           Vibe Check connects you to your Spotify playlists and <span class="bold">identifies</span> its genre.
@@ -92,7 +93,7 @@
       <div class="spacer"></div>
 
       <!-- video -->
-      <div class="row my-row">
+      <div class="row ">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6c9ERXmmN8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -100,12 +101,12 @@
       <div class="spacer"></div>
 
       <!-- what I did -->
-      <div class="row my-row">
+      <div class="row   mx-4 mx-md-0">
         <h1 class="spacersmall">What I did</h1>
       </div>
 
-      <div class="row my-row spacersmall">
-        <div class="col-md my-col projectmargL">
+      <div class="row  spacersmall  mx-4 mx-md-0">
+        <div class="col-md  projectmargL">
           <p>
             I <span class="bold">created and trained the neural network</span> to classify the genre of the playlists,
             by creating a dataset of over 1000+ songs with varying genres. I trained several
@@ -114,16 +115,16 @@
             a single song with high accuracy.
           </p>
         </div>
-        <div class="col-md my-col projectmargR align-self-center">
+        <div class="col-md  projectmargR align-self-center">
           <img src="Assets/vibecheckwhat1.png" class="img-fluid mx-auto d-block"  alt="vibecheck Image">
         </div>
       </div>
 
-      <div class="row my-row spacersmall">
-        <div class="col-md my-col projectmargL align-self-center">
+      <div class="row spacersmall  mx-4 mx-md-0">
+        <div class="col-md  projectmargL align-self-center order-md-1 order-12">
           <img src="Assets/vibecheckwhat2.png" class="img-fluid mx-auto d-block"  alt="vibecheck Image">
         </div>
-        <div class="col-md my-col projectmargR">
+        <div class="col-md  projectmargR order-md-12 order-1">
           <p>
             I <span class="bold">created and trained the neural network</span> to classify the genre of the playlists,
             by creating a dataset of over 1000+ songs with varying genres. I trained several
@@ -134,8 +135,8 @@
         </div>
       </div>
 
-      <div class="row my-row">
-        <div class="col-md my-col projectmargL">
+      <div class="row mx-4 mx-md-0">
+        <div class="col-md  projectmargL">
           <p>
             I <span class="bold">designed</span> and prototyped this in Figma and created the images in Illustrator.
             I focused on creating a simple but fun user journey people my age would use.
@@ -143,7 +144,7 @@
 
           </p>
         </div>
-        <div class="col-md my-col projectmargR align-self-center">
+        <div class="col-md  projectmargR align-self-center">
           <img src="Assets/vibecheckwhat3.png" class="img-fluid mx-auto d-block"  alt="vibecheck Image">
         </div>
       </div>
@@ -183,10 +184,10 @@
         <div class="spacer"></div>
 
         <!-- challenges -->
-        <div class="row my-row spacersmall">
+        <div class="row  spacersmall  mx-4 mx-md-0">
           <h1>Challenges & acheivements</h1>
         </div>
-        <div class="row my-row">
+        <div class="row   mx-4 mx-md-0">
           <p>
             This project was certainly very challenging as the aim of the project was not only to
             realize our concept but to also learn and <span class="bold">develop new skills</span> too. In the tight time span
@@ -207,10 +208,10 @@
         <div class="spacer"></div>
 
         <!-- takeaways -->
-        <div class="row my-row spacersmall">
+        <div class="row  spacersmall  mx-4 mx-md-0">
           <h1>My takeaways</h1>
         </div>
-        <div class="row my-row">
+        <div class="row   mx-4 mx-md-0">
           <p>
             To me this project certainly was not a cakewalk. <span class="bold">Thank you to my amazing team</span> for all the work that they did,
             without them this project would not have been possible. I truly enjoyed working together with them
@@ -231,7 +232,7 @@
 
         <!-- thank you -->
         <div class="spacer"></div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center  mx-4 mx-md-0">
           <p class="projectlargequote" style="text-align:center;">Thank you for reading!</p>
         </div>
         <div class="spacer"></div>
