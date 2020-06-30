@@ -240,6 +240,11 @@ p {
   margin-bottom: 0px;
 }
 
+.mobilespacertop{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .first{
   margin-left: 0px;
 }
@@ -446,6 +451,9 @@ p {
 .spacersmall{
   margin-bottom: 60px;
 }
+.gone{
+
+}
 /* //mobile changes */
 @media (min-width: 0px) and (max-width: 768px) {
    .intro{
@@ -556,6 +564,15 @@ p {
   .mobilespacer{
     margin-top: 48px;
     margin-bottom: 48px;
+  }
+
+  .mobilespacertop{
+    margin-top: 20px;
+    margin-bottom: 36px;
+  }
+
+  .gone{
+    height:0px;
   }
 
 
