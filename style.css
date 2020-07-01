@@ -207,7 +207,7 @@ p {
   transition: 0.4s;
   background: #EDE7F6;
 }
-.hovercard:hover .col-md-8 .card-body .card-title{
+/* .hovercard:hover .col-md-8 .card-body .card-title{
   transition: 0.4s;
   color: #651FFF;
 }
@@ -227,6 +227,27 @@ p {
   transition: 0.4s;
   color: #651FFF;
   background-color: white;
+} */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 38px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 38px;
+  color: black;
 }
 
 .mobile{
@@ -332,7 +353,7 @@ p {
 }
 
 .socialcolor{
-  color: #651FFF;
+  color: #616161;
 }
 
 .timeline {
@@ -404,6 +425,13 @@ p {
   font-size: 20px;
 }
 
+.titlefonts{
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
 .time-wrapper {
   display: inline;
   margin-left: 15px;
@@ -412,7 +440,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  color: #651FFF;
+  color: black;
   vertical-align: middle;
 }
 
@@ -427,7 +455,7 @@ p {
 .time {
   display: inline-block;
   padding: 2px 4px;
-  background: #F9F9F9;
+  background: what;
 }
 
 .desc {
@@ -497,6 +525,13 @@ p {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
+  }
+
+  .titlefonts{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
   }
 
   .projtitle{
@@ -590,8 +625,8 @@ p {
     position: relative;
     top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, -65%);
-    transform: translate(-50%, -65%);
+    -ms-transform: translate(-50%, -90%);
+    transform: translate(-50%, -90%);
   }
   .pad{
     margin-left: 10px;
