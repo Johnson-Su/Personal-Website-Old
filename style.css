@@ -520,6 +520,39 @@ p {
     color: #000000;
   }
 
+  .mainpill{
+    background-color: white;
+    border: none;
+    color: #651FFF;
+    padding: 4px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 3px;
+    border-radius: 8px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .secondarypill{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 4px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 3px;
+    border-radius: 8px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+  }
+
   .titlefont{
     font-family: Karla;
     font-style: normal;
