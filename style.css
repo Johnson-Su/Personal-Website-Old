@@ -456,6 +456,10 @@ p {
 .gone{
 
 }
+
+.mobilediv{
+  height: 0px;
+}
 /* //mobile changes */
 @media (min-width: 0px) and (max-width: 768px) {
    .intro{
@@ -577,13 +581,17 @@ p {
     height:0px;
   }
 
+  .mobilediv{
+    height: 24px;
+  }
+
   .center {
     margin: 0;
     position: relative;
     top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -65%);
+    transform: translate(-50%, -65%);
   }
   .pad{
     margin-left: 10px;
