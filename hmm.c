@@ -1,1 +1,0 @@
-#include <stdio.h>int main(){int count = 0;while(count < 10){printf("%d", count);count += 1;}printf("\n");for(int count = 0; count < 10; count++){printf("%d", count);if(count < 3){printf("small\n");}else if(count > 7){printf("big\n");}else{printf("medium\n");}}printf("\n");return 0;}
