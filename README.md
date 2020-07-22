@@ -1,7 +1,15 @@
-# PersonalWebsite
-Johnson Su's Personal Website
+# Personal Website
+Hi! This is my responsive personal website where I post the projects that I do and the process behind it.
 
-To do: Clean up my code
+[Check it out!](https://sujohnson.com/)
 
-Please contact me if you want to have any issues with the website or if you want to use it as a template at Johnsonn.su@mail.utoronto.ca
+## Future update plans
+   •  Improve image resizing when window size changes
+   •  Clean up my code, comment, and remove redundant classes
+   •  Organize my files into folders
+   •  Add different sized project cards to accomodate for more future projects
+   
+## Something looks cool?
+Feel free to use any portion of my code for developing your own website! 
+If possible I would appreciate some attribution if you are publishing it :)
 
