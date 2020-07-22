@@ -5,8 +5,11 @@ Hi! This is my responsive personal website where I post the projects that I do a
 
 ## Future update plans
    •  Improve image resizing when window size changes
+   
    •  Clean up my code, comment, and remove redundant classes
+   
    •  Organize my files into folders
+   
    •  Add different sized project cards to accomodate for more future projects
    
 ## Something looks cool?
