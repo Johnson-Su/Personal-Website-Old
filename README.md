@@ -11,5 +11,6 @@ Hi! This is my responsive personal website where I post the projects that I do a
    
 ## Something looks cool?
 Feel free to use any portion of my code for developing your own website!<br/>
-If possible I would appreciate some attribution if you are publishing it :)
+If possible I would appreciate some attribution if you are publishing it (also contact me please) :)
+
 
