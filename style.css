@@ -159,7 +159,7 @@ p {
 
 /* card css start */
 .my-col-trans{
-  border: 3px dotted transparent;
+  border: 1px dotted transparent;
 }
 
 .mainpill{
@@ -304,6 +304,14 @@ p {
 
 .vibecheck{
   background-color: #FFFAF0;
+}
+
+.steghide{
+  background-color: #1C1C1C;
+}
+
+.website{
+  background-color: #E5E5E5;
 }
 
 .ani:before{
@@ -488,6 +496,85 @@ p {
 .mobilediv{
   height: 0px;
 }
+
+.largecardmarg{
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.smallcardmarg{
+  margin: 2vw;
+}
+
+.mainpillsm{
+  background-color: white;
+  border: none;
+  color: #651FFF;
+  padding: 4px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 3px;
+  border-radius: 8px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.secondarypillsm{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 4px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 3px;
+  border-radius: 8px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+}
+
+.psm {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.h1sm {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #000000;
+}
+
+.cardmaxheight{
+   max-height: 531px;
+}
+
+.spacerlarge{
+  height:48px;
+}
+
+.spacersm{
+  height:24px;
+}
+
+.menuheight{
+  min-height: 10vh;
+}
+
 /* //mobile changes */
 @media (min-width: 0px) and (max-width: 768px) {
    .intro{
@@ -675,4 +762,37 @@ p {
     margin-left: 10px;
     margin-right: 0px;
   }
+
+  .largecardmarg{
+    margin: 4vw;
+  }
+
+  .smallcardmarg{
+    margin: 4vw;
+  }
+
+  .cardmaxheight{
+    max-height: none;
+  }
+
+  .spacersm{
+    height:24px;
+  }
+
+  .spacerlarge{
+    height:24px;
+  }
+
+  .menuheight{
+    min-height: 0vh;
+  }
+
+  .steghide{
+    background-color: #222C31;
+  }
+
+  .planty{
+    background-color: #FFFFFF;
+  }
+
 }
