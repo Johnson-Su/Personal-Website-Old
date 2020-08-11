@@ -614,6 +614,9 @@ th {
 }
 
 .desktopwebsite{
+  width:100%;
+  max-width: 1116px;
+  max-height: 620px;
   height:38vw;
   width:66vw;
   border-radius: 8px;
@@ -845,6 +848,16 @@ th {
 
   .largecard{
     min-height: 0vh;
+  }
+
+  .desktopwebsite{
+    width:100%;
+    max-width: 1116px;
+    height:200vw;
+    width:80vw;
+    border-radius: 8px;
+    border: 4px solid #616161;
+    overflow:scroll;
   }
 
 }
