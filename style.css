@@ -870,14 +870,14 @@ th {
     position: relative;
     top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, -80%);
-    transform: translate(-50%, -80%);
+    -ms-transform: translate(-50%, -90%);
+    transform: translate(-50%, -90%);
   }
 
   .centerbot {
     margin: 0;
     position: absolute;
-    bottom: 14vh;
+    bottom: 8vh;
     left: 50%;
   }
 
