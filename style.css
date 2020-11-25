@@ -45,6 +45,10 @@ th {
   font-weight: bold;
 }
 
+.desktopsize{
+  max-width: 36vw;
+}
+
 .bold {
   font-weight: bold;
   color: #651FFF;
@@ -933,6 +937,10 @@ th {
     border-radius: 8px;
     border: 4px solid #616161;
     overflow:scroll;
+  }
+
+  .desktopsize{
+    max-width:100%;
   }
 
 }
