@@ -49,9 +49,35 @@ th {
   max-width: 680px;
 }
 
+.nomobile{
+  display:block;
+}
+
+.medipaint{
+  width: 374px;
+  height: 458px;
+  background: linear-gradient(180deg, #C5B4E6 0%, #FED3B6 100%);
+}
+
+.indexexchange{
+  width: 374px;
+  height: 458px;
+  background: #2D3082;
+}
+
+.farmbot{
+  width: 374px;
+  height: 458px;
+  background: #783F04;
+}
+
 .bold {
   font-weight: bold;
   color: #651FFF;
+}
+
+.indexexchangemobile{
+  height:0px;
 }
 
 .intro{
@@ -160,6 +186,14 @@ th {
 }
 .smaller{
 
+}
+
+.medipaintmobile{
+  height: 0px;
+}
+
+.farmbotmobile{
+  height: 0px;
 }
 
 .center {
@@ -941,6 +975,28 @@ th {
 
   .desktopsize{
     max-width:100%;
+  }
+
+  .indexexchangemobile{
+    width:100%;
+    height:30px;
+    background-color:#2D3082;
+  }
+
+  .medipaintmobile{
+    width:100%;
+    height:30px;
+    background:linear-gradient(90deg, #C5B4E6 0%, #FED3B6 100%);
+  }
+
+  .farmbotmobile{
+    width:100%;
+    height:30px;
+    background-color:#783F04;
+  }
+
+  .nomobile{
+    display:none;
   }
 
 }
