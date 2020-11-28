@@ -76,9 +76,6 @@ th {
   color: #651FFF;
 }
 
-.indexexchangemobile{
-  height:0px;
-}
 
 .intro{
   font-family: Karla;
@@ -188,12 +185,22 @@ th {
 
 }
 
+.indexexchangemobile{
+  width:100%;
+  height:30px;
+  background-color:#2D3082;
+}
+
 .medipaintmobile{
-  height: 0px;
+  width:100%;
+  height:30px;
+  background:linear-gradient(90deg, #C5B4E6 0%, #FED3B6 100%);
 }
 
 .farmbotmobile{
-  height: 0px;
+  width:100%;
+  height:30px;
+  background-color:#316415;
 }
 
 .center {
@@ -975,24 +982,6 @@ th {
 
   .desktopsize{
     max-width:100%;
-  }
-
-  .indexexchangemobile{
-    width:100%;
-    height:30px;
-    background-color:#2D3082;
-  }
-
-  .medipaintmobile{
-    width:100%;
-    height:30px;
-    background:linear-gradient(90deg, #C5B4E6 0%, #FED3B6 100%);
-  }
-
-  .farmbotmobile{
-    width:100%;
-    height:30px;
-    background-color:#783F04;
   }
 
   .nomobile{
