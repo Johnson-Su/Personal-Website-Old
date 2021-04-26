@@ -1,0 +1,193 @@
+<div class="start">
+    <!-- intro container -->
+  <div class="container-fluid" style="height: 100vh;">
+    <custom-navbar></custom-navbar>
+
+    <div class="center">
+      <p class="intro mx-4 mx-md-0" style="background-color:white;">
+        Hello, I’m <span class="bold">Johnson Su</span> a software engineer<br class="nomobile">
+        studying Computer Science at the University<br class="nomobile">
+        of Toronto with a passion for emerging<br class="nomobile">
+        technologies and their applications.
+      </br>
+      </br>
+      <!-- <span class="ani"></span> -->
+      <span class="txt-rotate intro desktopsize"data-period="2000" data-rotate='["char i_know[1024] = \"C\";", "i_know = \"Python\"", "String iKnow = \"Java\"", "var iKnow = \"JavaScript\";", "I know HTML5 and CSS3 as you can see :)"  ]'></span>
+    </p>
+    </div>
+
+    <section class="centerbot mx-4 mx-md-0">
+      <div class="scroll-down"></div>
+    </section>
+
+  </div>
+
+    <!-- content container-->
+    <div class="container-md">
+      <div class="spacer"></div>
+
+      <!-- what I'm up to  -->
+      <div class="row py-3 justify-content-end order-2 order-md-1">
+        <div class="col-md-6">
+          <img src="Assets/face.png" class="mx-4 mx-md-0">
+        </div>
+      </div>
+      <div class="row py-3 order-1 order-md-2">
+        <div class="col-md mx-4 mx-md-0">
+          <h1>What I'm up to</h1>
+        </div>
+        <div class="col-md mx-4 mx-md-0">
+          <p>
+            Currently, I'm a <span class="bold">Software Engineering Intern</span> at <a href="https://www.indexexchange.com/" target="_blank"><span class="bold link nodec">Index Exchange</span></a>.
+            In my free time I'm doing <span class="bold">app development</span> for my medication tracking app, learning more about <span class="bold">product design</span>, and improving my <span class="bold">machine learning</span> skills.
+            <br>
+            <br>I’m interested in Summer 2021 internships!
+          </p>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+      <!-- project cards -->
+    <div>
+        
+    <project-card :image="imagePilly" 
+      :image-large="imagePillyLarge" 
+      :title="'Pilly'"
+      :description="'Pill tracking application designed for those who need to manage medications for the elderly or the young'" 
+      :languages="['Dart']" 
+      :tools="['Flutter', 'Figma', 'Adobe Illustrator']"
+      :ongoing="true"
+      :project-number="1">
+    </project-card>
+    
+    <project-card :image="imageStegHide" 
+      :image-large="imageStegHideLarge" 
+      :title="'Steg Hide'"
+      :description="'Open source program for hiding and transporting information to areas of the world with censorship on knowledge'" 
+      :languages="['C']" 
+      :tools="['Steganography', 'Image Processing']"
+      :ongoing="true"
+      :project-number="2">
+    </project-card>
+    
+    <project-card :image="imageStegHide" 
+      :image-large="imageStegHideLarge" 
+      :title="'Vibe Check'"
+      :description="'Find, edit, and refine the mood of your Spotify playlist using machine learning'" 
+      :languages="['JavaScript', 'HTML5', 'CSS3']" 
+      :tools="['Brain.js', 'Node.js', 'Spotify API', 'Heroku']"
+      :ongoing="false"
+      :project-number="3">
+    </project-card>
+            
+    <project-card :image="imageStegHide" 
+      :image-large="imageStegHideLarge" 
+      :title="'Certi-Chain'"
+      :description="'A blockchain powered solution to prevent the counterfeiting of products'" 
+      :languages="['Python', 'HTML5', 'CSS3']" 
+      :tools="['Flask', 'Jinja', 'Heroku']"
+      :ongoing="false"
+      :project-number="4">
+    </project-card>
+    
+    <project-card :image="imageStegHide" 
+      :image-large="imageStegHideLarge" 
+      :title="'Planty'"
+      :description="'Google Chrome extension that suggest ingredient substitutes with lower carbon footprints for online recipes'" 
+      :languages="['Python', 'HTML5', 'CSS3']" 
+      :tools="['Flask', 'Jinja', 'Heroku']"
+      :ongoing="false"
+      :project-number="5">
+    </project-card>
+
+      <!-- small cards -->
+      <div class="row">
+        <div class="col-sm-6 d-flex justify-content-start">
+          <a href="Projects/Farmily/farmily.html" style="text-decoration: none;">
+            <div class="card sm-3 bgclr marg" style="max-width: 530px; border: none;">
+              <div class="row no-gutters hovercard align-self-center">
+                  <div class="card-body align-items-center smallcardmarg">
+                    <p class="card-text psm">06 //</p>
+                    <h1 class="card-title h1sm">Farmily</h1>
+                    <p class="card-text psm">Connect farmers to local consumers to reduce food waste due to COVID-19</p>
+                    <div class="spacersm"></div>
+                      <div class="mainpillsm first">JavaScript</div>
+                      <div class="mainpillsm">HTML5</div>
+                      <div class="mainpillsm last">CSS3</div>
+                      <div></div>
+                      <div class="secondarypillsm first">Firebase</div>
+                      <div class="secondarypillsm">Maps API</div>
+                      <div class="secondarypillsm">Node.js</div>
+                  </div>
+                <div class="col align-self-center farmily">
+                  <img src="Projects/Farmily/largefarmilymobile.png" class="img-fluid mx-auto d-block notmobile"  alt="Farmily Image">
+                  <img src="Projects/Farmily/largefarmilymobile.png" class="img-fluid mx-auto d-block mobile"  alt="Farmily Image">
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm-6 d-flex justify-content-end">
+          <a href="Projects/Website/website.html" style="text-decoration: none;">
+            <div class="card sm-3 bgclr marg" style="max-width: 530px; border: none;">
+              <div class="row no-gutters hovercard align-self-center">
+                  <div class="card-body align-items-center smallcardmarg">
+                    <p class="card-text psm">07 //</p>
+                    <h1 class="card-title h1sm">Personal Website</h1>
+                    <p class="card-text psm">A collection of my personal projects and the process behind their creation</p>
+                    <div class="spacersm"></div>
+                      <div class="mainpillsm first">JavaScript</div>
+                      <div class="mainpillsm">HTML5</div>
+                      <div class="mainpillsm last">CSS3</div>
+                      <div></div>
+                      <div class="secondarypillsm first">Bootstrap</div>
+                  </div>
+                <div class="col align-self-center website">
+                  <img src="Projects/Website/largewebsitemobile.png" class="img-fluid mx-auto d-block notmobile" alt="website Image">
+                  <img src="Projects/Website/largewebsitemobile.png" class="img-fluid mx-auto d-block mobile"  alt="website Image">
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <!-- Say hello! -->
+      <div class="row py-3">
+        <div class="col-md mx-4 mx-md-0">
+          <h1>Say hello!</h1>
+        </div>
+        <div class="col-md mx-4 mx-md-0">
+          <p>
+            You can reach me through my <a href="https://www.linkedin.com/in/johnson-su/" target="_blank"><span class="bold link nodec">LinkedIn</span></a> or send me an <a class="bold link nodec" href = "mailto: johnsonn.su@mail.utoronto.ca"><span class="bold link nodec">email</span></a>.
+            Whether you want to do a Hackathon with me or get to know
+            me better I’d be happy to talk with you!
+          </p>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <div class="row justify-content-end mb-5">
+        <div class="col-md-12 ">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.linkedin.com/in/johnson-su/" target="_blank"><p>LinkedIn</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Johnson-Su" target="_blank"><p>GitHub</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://devpost.com/Johnson-Su" target="_blank"><p>Devpost</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Johnson_su_resume.pdf" target="_blank"><p>Resume</p></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>

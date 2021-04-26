@@ -1,0 +1,57 @@
+<div class="project-card">
+    <a
+        href="Projects/Pilly/pilly.html"
+        class="hovercard cardmaxheight"
+        style="text-decoration: none;"
+    >
+        <div
+            class="card mb-3 bgclr marg"
+            style="max-width: 1116px; border: none;"
+        >
+            <div class="row no-gutters hovercard">
+                <div class="col-md-8 align-self-center">
+                    <div class="card-body align-items-start largecardmarg">
+                        <p class="card-text" v-if="ongoing">
+                            <b>[ Ongoing Project ]</b>
+                        </p>
+                        <p class="card-text" v-if="!ongoing">
+                            {{ projectNumber }} //
+                        </p>
+                        <h1 class="card-title">{{ title }}</h1>
+                        <p class="card-text">
+                            {{ description }}
+                        </p>
+                        <div class="spacerlarge"></div>
+                        <div
+                            class="mainpill mr-2 mb-1"
+                            v-for="language in languages"
+                        >
+                            {{ language }}
+                        </div>
+                        <div></div>
+                        <div
+                            class="secondarypill first mr-2"
+                            v-for="tool in tools"
+                        >
+                            {{ tool }}
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col align-self-center my-col-trans spacing pillytop"
+                >
+                    <img
+                        :src="image"
+                        class="img-fluid mx-auto d-block notmobile"
+                        alt="steghide image"
+                    />
+                    <img
+                        :src="imageLarge"
+                        class="img-fluid mx-auto d-block mobile"
+                        alt="steghide image"
+                    />
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
