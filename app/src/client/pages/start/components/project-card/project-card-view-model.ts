@@ -3,7 +3,7 @@ import "./project-card-view.scss";
 
 @template(require("./project-card-view.html"))
 @element("project-card")
-@bind("image", "imageLarge", "title", "description", "languages", "tools", "ongoing", "projectNumber")
+@bind("image", "imageLarge", "title", "description", "languages", "tools", "ongoing", "projectNumber", "isSmall")
 export class ProjectCardViewModel extends ComponentViewModel
 {
     
